@@ -1,0 +1,32 @@
+@charset "Utf-8";
+
+@font-face {
+    font-family: "pokemon";
+    src: url("../fonts/pokemon-solid.ttf") format("truetype");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    font-family: "pokemon", Arial, Helvetica, sans-serif;
+
+}
+
+header > h1 {
+    display: inline-block;
+    font-size: 5vw;
+    text-decoration: overline;
+    text-shadow: 1px 1px 1vw black, 0 0 0.5em #40ffac, 0 0 0.5em #aab2ff, 0 0 0.2em #eca0ff;
+    color: white;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 10vw; 
+}
+
+header > nav {
+    display: inline-block;
+}

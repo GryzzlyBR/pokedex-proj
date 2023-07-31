@@ -9,8 +9,10 @@
 }
 
 body {
+     
     background-color: lightgray;
-    max-width: 70%;
+    max-width: 90%;
+    max-height: 90%;
     margin: auto;
     text-align: center;
 }
@@ -31,6 +33,22 @@ header > nav {
     text-align: center;
 }
 
+body > section > div {
+    display: inline-block;
+    width: 30%;
+    margin: 5px;
+    padding: 2px;
+}
+
+.pokemons {
+    font-size: 2vw;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    margin: auto;
+    padding: 2px;
+}
+
 section {
     font-family: 'Courier New', Courier, monospace, sans-serif;
     display: flex;
@@ -40,7 +58,17 @@ section {
 }
 
 section > div {
+    display: block;
+    width: 100%;
     background-color: lightblue;
     margin: auto;
+    
 
+}
+
+section > div > img {
+    display: block;
+    float: left;
+    max-width: 50%;
+    border-radius: 10%;
 }

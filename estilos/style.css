@@ -8,61 +8,55 @@
     
 }
 
-body {
-      
-    background-color: lightgray;
-    text-align: center;
-}
-
-header {
+body header {
     font-family: 'Libre Baskerville', serif;
-    text-shadow: 0 0 2px black;
 }
 
-header > h1 {
+body > header > h1 {
+    text-shadow:  2px 2px 1vw #00c8ff,1px 1px 2vw #5400aa;    
     font-size: 5vw;
     color: black;
-    text-align: center;
+    text-align: left;
+    padding: 2vw 0 0 2vw;
 }
 
-header > nav {
+#navegacao {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
     font-size: 2vw;
-    text-align: center;
+    margin: 0 0 0 1vw;
+}
+
+body > header > nav > a {
+    background-image: linear-gradient(to right, #00c8ffa0, #5500aa87, black);
+    color: white;
+    text-decoration: none;
+    justify-content: center;
+    border-radius: 10px 0px;
+    padding: 5px;
+    margin: 2px;
+}
+
+body > header > nav > a:hover {
+    background-image: linear-gradient(to right, #00c8ff, #5400aa, black);
 }
 
 body {
-    
     font-family: 'Courier New', Courier, monospace, sans-serif;
 }
 
-body > section > div {
-    display: inline-block;
-    position: relative;
-    width: 30%;
-    margin: 5px;
-}
-
 .pokemons {
-    font-size: 2vw;
-    display: inline-block;
-    width: 75vw;
-    height: 80vh;
-    padding: 2px;
-}
-
-section {
-    background-color: white;
-}
-
-section > div {
-    display: block;
-    width: 100%;
+    background-color: antiquewhite;
+    display: flexbox;
     margin: auto;
+    width: 90vw;    
+    height: 90vh;
 }
 
-section > div > img {
-    display: block;
-    float: left;
-    max-width: 40%;
-    border-radius: 10%;
+body > section > div{
+    display: inline-block;
+    margin: 5px;
+    background-color: aqua;
 }
+

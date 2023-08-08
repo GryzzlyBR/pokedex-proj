@@ -16,16 +16,20 @@ body {
 }
 
 .titulo {
-    display: block;
-    position: static;
     padding: 20px 20px;
     margin: auto;
     max-width: 90vw;
     text-align: center;
     font-family: 'Libre Baskerville', serif;
+} 
+
+.titulo > img {
+    float: left;
+    width: 20%;
 }
 
-body > header > h1 {
+.titulo > h1 {
+    width: 100%;
     text-shadow: 2px 2px 2px black, 1px 1px 25px #580ed8, 1px 1px 25px #580ed8;    
     color: white;
     font-size: 5em;
@@ -33,18 +37,20 @@ body > header > h1 {
 }
 
 #navegacao {
-    display: inline-block;
-    
+    display: block;
+    float: inline-start;
+    border: 2px solid black;
     font-size: 2em;
-    padding: 10px;
 }
 
 #navegacao> a:hover {
     color: white;
     text-shadow: 2px 2px 2px black, 1px 1px 25px #580ed8, 1px 1px 25px #580ed8;
-
 }
 
 #pokemons {
+    display: inline-block;
+    width: 100%;
     max-width: 90vw;
+    margin: auto;
 }

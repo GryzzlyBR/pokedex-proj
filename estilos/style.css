@@ -9,23 +9,22 @@
 }
 
 body {
-    background-color: #6d00da3b;
+    background-color: #580ed849;
 }
 
 body > header {
-    max-width: 90vw;
+    padding: 20px 0 20px 0;
     margin: auto;
-    border: 5px solid red;
-    border-radius: 10px;
+    max-width: 90vw;
     text-align: center;
-    padding: 10px;
     font-family: 'Libre Baskerville', serif;
 }
 
 body > header > h1 {
-    
-    text-shadow:  2px 2px 1vw #00c8ff,1px 1px 2vw #5400aa;    
+    text-shadow: 2px 2px 2px black, 1px 1px 25px #580ed8, 1px 1px 25px #580ed8;    
+    color: white;
     font-size: 5vw;
+    padding-bottom: 10px;
     
 }
 

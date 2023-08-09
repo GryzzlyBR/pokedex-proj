@@ -16,6 +16,8 @@ body {
 }
 
 .titulo {
+    width: 100%;
+    box-sizing: border-box;
     padding: 20px 20px;
     margin: auto;
     max-width: 90vw;

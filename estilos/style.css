@@ -5,66 +5,57 @@
 * {
     padding: 0;
     margin: 0;
-}
-
-a {
-    text-decoration: none;
-}
-
-.titulo {
-    display: block;
     box-sizing: border-box;
-    background-image: url("../imagens/gengar.gif");
-    background-size: contain;
-    background-position: right top;
-    background-repeat: no-repeat;
-    padding: 20px 20px;
-    margin: 0vw 10vw;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 20vh 70vh 10vh;
+    grid-template-areas: "capa capa"
+                         "pokemon pokemon"
+                         "footer footer";
+    margin: auto;
+    align-items: center;
+    justify-items: center;                         
+    background-color: rgb(173, 216, 230);
+}
+
+.capa {
+    grid-area: capa;
+    width: 90vw;
     text-align: center;
     font-family: 'Libre Baskerville', serif;
 } 
 
-.titulo > h1 {
+.capa > h1 {
     text-shadow: 2px 2px 2px black, 1px 1px 15px black, 1px 1px 25px #580ed8, 1px 1px 25px #580ed8;    
     color: white;
     font-size: 5em;
 }
 
-.titulo > h2 {
-    text-shadow: 2px 2px 2px black, 1px 1px 15px black, 1px 1px 25px #580ed8, 1px 1px 25px #580ed8;    
-    color: white;
-    padding-left: 40%;
+img {
+    position: absolute;
+    top: 0px;
+    right: 22vw;
+    height: 20vh;
+    z-index: -1;
 }
 
-#navegacao {
+.pokemons {
+    grid-area: pokemon;
+    width: 90vw;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    box-sizing: border-box;
-    text-align: center;
-    font-size: 2em;
-}
 
-#navegacao > a {
-    margin: 5px 5px;
-    color: #583b8d;
-}
-
-#navegacao> a:hover {
-    color: white;
-    text-shadow: 2px 2px 2px black, 1px 1px 15px black, 1px 1px 25px #580ed8, 1px 1px 25px #580ed8;  
-}
-
-.pokedex {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
     background-color: #583b8d;
 }
 
-body > section > div {
-    border: 1px solid black;
-    margin: 10px;
+.pokemons > div {
+    background-color: white;
+}
+
+footer {
+    grid-area: footer;
+    width: 90vw;
+    background-color: aqua;
 }

@@ -55,29 +55,42 @@ body {
 
 .pokemons {
     display: grid;
-    grid-template-areas: 1fr;
     width: 80vw;
     height: 75vh;
     border-radius: 20px;
     background-color: white;
     box-shadow: var(--sombra-padrao);
-    
+}
+
+.pokemons > h1 {
+    grid-area: nome;
+}
+
+.pokemons > h2 {
+    grid-area: tipo;
+}
+
+.pokemons > p {
+    grid-area: info;
 }
 
 .pokemons-card {
+    float: left;
+    font-family: var(--fonte-texto);
+    font-weight: 600;
     text-align: center;
 }
 
 .card-imagem {
     float: left;
     border: 1px solid black;
-}
+}   
 
 .rodape {
     width: 80vw;
     height: 10vh;
     margin: 20px;
-    background-color: var(--azul-claro);
+    background-color: white;
     box-shadow: var(--sombra-padrao);
     border-radius: 20px;
     text-align: center;

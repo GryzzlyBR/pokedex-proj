@@ -66,6 +66,7 @@ body {
 }
 
 .navegacao {
+    display: none;
     text-align: center;
     grid-column: 1 / span 2;
     margin: auto;

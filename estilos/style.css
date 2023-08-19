@@ -82,7 +82,7 @@ body {
     padding: 10px;
     border-radius: 10px;
     font-family: var(--fonte-titulo);
-    box-shadow: 0 0 5px black;
+    box-shadow: 1px 1px 5px black;
     background-image: linear-gradient(to right, var(--roxo-menu), transparent);
 
 }
@@ -96,20 +96,20 @@ a:hover {
     text-indent: 10px;
     border-radius: 10px;
     background-color: white;
-    box-shadow: 0 0 5px black;
+    box-shadow: 1px 1px 5px black;
 }
 
-.pokemons > h1 {
+.pokemons-card h1 {
+    font-family: var(--fonte-titulo);
 }
 
-.pokemons > h2 {
+.pokemons-card h2 {
 }
 
-.pokemons > p {
+.pokemons-card p {
 }
 
 .pokemons-card {
-    float: left;
     font-family: var(--fonte-texto);
     font-weight: 600;
     text-align: center;

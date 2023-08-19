@@ -82,7 +82,7 @@ body {
     padding: 10px;
     border-radius: 10px;
     font-family: var(--fonte-titulo);
-    box-shadow: var(--sombra-padrao);
+    box-shadow: 0 0 5px black;
     background-image: linear-gradient(to right, var(--roxo-menu), transparent);
 
 }
@@ -96,7 +96,7 @@ a:hover {
     text-indent: 10px;
     border-radius: 10px;
     background-color: white;
-    box-shadow: var(--sombra-padrao);
+    box-shadow: 0 0 5px black;
 }
 
 .pokemons > h1 {
@@ -120,11 +120,11 @@ a:hover {
 }   
 
 .rodape {
-    width: 80vw;
-    height: 10vh;
+    width: 90vw;
+    height: auto;
     margin: 20px;
     background-color: white;
-    box-shadow: var(--sombra-padrao);
+    box-shadow: 0 0 5px black;
     border-radius: 20px;
     text-align: center;
 }

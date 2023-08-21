@@ -17,7 +17,6 @@
 * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;   
     text-decoration: none;
 }
 
@@ -95,6 +94,7 @@ a:hover {
 }
 
 .ghost {
+    font-size: 1.3rem;
     padding: 2px 10px;
     box-shadow: 1px 1px 5px black;
     border-radius: 15px;
@@ -102,6 +102,7 @@ a:hover {
 }
 
 .poison {
+    font-size: 1.3rem;
     padding: 2px 10px;
     box-shadow: 1px 1px 5px black;
     border-radius: 15px;
@@ -123,12 +124,12 @@ a:hover {
 }
 
 .pokemons-card img {
-    margin: auto;
     padding: 15px 0px;
     
 }
 
 .pokemons-card h1 {
+    font-size: 2.5rem;
     color: white;
     text-shadow: var(--sombra-padrao);
     font-family: var(--fonte-titulo);
@@ -143,10 +144,6 @@ a:hover {
 .pokemons-card p {
     text-shadow: 1px 1px 1px black;
     text-indent: 10px;
-}
-
-.card-imagem {
-    float: left;
 }   
 
 .rodape {

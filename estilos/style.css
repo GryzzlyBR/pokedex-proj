@@ -14,14 +14,15 @@
     --azul-voo: #3dc7ef;
     --azul-gelo: #00b1e8;
     --amarelo-eletricidade: #EED535;
-    --laranja-dragao: #ec4123;
+    --laranja-dragao: #ff320e;
     --azul-agua: #1578ba;
-    --vermelho-fogo: #fd2424;
+    --vermelho-fogo: #ff0000;
     --marrom-terra: #745325;
     --cinza-metal: #949494;
     --verde-planta: #298e60;
     --rosa-psiquico: #f366b9;
     --rosa-fada: #fdb9e9;
+    --luta: #ff8800;
     --fonte-titulo: 'Carter One', cursive, sans-serif;
     --fonte-texto: 'Noto Sans', sans-serif;
     --sombra-padrao: 0px 0px 10px black, 0px 0px 10px black, 0px 0px 20px var(--roxo), 0px 0px 20px var(--roxo), 0px 0px 30px var(--azul-claro) ;
@@ -232,6 +233,14 @@ a:hover {
     background-color: var(--rosa-fada);
 }
 
+.luta {
+    font-size: 1.3rem;
+    padding: 2px 10px;
+    box-shadow: 1px 1px 5px black;
+    border-radius: 15px;
+    background-color: var(--luta);
+}
+
 .pokemons {
     width: 90vw;
     padding: 10px;
@@ -241,14 +250,11 @@ a:hover {
 }
 
 .pokemons-card {
-    margin: 10px;
     font-family: var(--fonte-texto);
     text-align: center;
-}
-
-.pokemons-card img {
     padding: 15px 0px;
-    
+    border-bottom: 2px solid var(--roxo-claro);
+    cursor: pointer;
 }
 
 .pokemons-card h1 {
@@ -297,10 +303,28 @@ a:hover {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
  }
+
+ .pokemons-card {
+    border-bottom: none;
+    opacity: 85%;
+ }
+
+ .pokemons-card:hover {
+    opacity: 100%;
+ }
 }
 
 @media only screen and (min-width: 1000px) {
  .pokemons {
     grid-template-columns: 1fr 1fr 1fr 1fr;
  }    
+
+ .pokemons-card {
+    border-bottom: none;
+    opacity: 85%;
+ }
+
+ .pokemons-card:hover {
+    opacity: 100%;
+ }
 }

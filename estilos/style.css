@@ -11,9 +11,22 @@
     --rosa-poison: #d587ebbc;
     --verde-inseto: #729f3fbc;
     --cinza-dark: #707070bc;
+    --azul-voo: #3dc7ef;
+    --azul-gelo: #00b1e8;
+    --amarelo-eletricidade: #EED535;
+    --laranja-dragao: #ec4123;
+    --azul-agua: #1578ba;
+    --vermelho-fogo: #fd2424;
+    --marrom-terra: #745325;
+    --cinza-metal: #949494;
+    --verde-planta: #298e60;
+    --rosa-psiquico: #f366b9;
+    --rosa-fada: #fdb9e9;
     --fonte-titulo: 'Carter One', cursive, sans-serif;
     --fonte-texto: 'Noto Sans', sans-serif;
     --sombra-padrao: 0px 0px 10px black, 0px 0px 10px black, 0px 0px 20px var(--roxo), 0px 0px 20px var(--roxo), 0px 0px 30px var(--azul-claro) ;
+    --sombra-titulo: 0px 0px 5px black, 0px 0px 10px black, 0px 0px 10px var(--roxo), 0px 0px 10px var(--roxo);
+
 }
 
 * {
@@ -131,6 +144,94 @@ a:hover {
     background-color: var(--cinza-dark);
 }
 
+.voo {
+    font-size: 1.3rem;
+    padding: 2px 10px;
+    box-shadow: 1px 1px 5px black;
+    border-radius: 15px;
+    background-color: var(--azul-voo);
+}
+
+.gelo {
+    font-size: 1.3rem;
+    padding: 2px 10px;
+    box-shadow: 1px 1px 5px black;
+    border-radius: 15px;
+    background-color: var(--azul-gelo);
+}
+
+.eletricidade {
+    font-size: 1.3rem;
+    padding: 2px 10px;
+    box-shadow: 1px 1px 5px black;
+    border-radius: 15px;
+    background-color: var(--amarelo-eletricidade);
+}
+
+.dragao {
+    font-size: 1.3rem;
+    padding: 2px 10px;
+    box-shadow: 1px 1px 5px black;
+    border-radius: 15px;
+    background-color: var(--laranja-dragao);
+}
+
+.agua {
+    font-size: 1.3rem;
+    padding: 2px 10px;
+    box-shadow: 1px 1px 5px black;
+    border-radius: 15px;
+    background-color: var(--azul-agua);
+}
+
+.fogo {
+    font-size: 1.3rem;
+    padding: 2px 10px;
+    box-shadow: 1px 1px 5px black;
+    border-radius: 15px;
+    background-color: var(--vermelho-fogo);
+}
+
+.terra {
+    font-size: 1.3rem;
+    padding: 2px 10px;
+    box-shadow: 1px 1px 5px black;
+    border-radius: 15px;
+    background-color: var(--marrom-terra);
+}
+
+.metal {
+    font-size: 1.3rem;
+    padding: 2px 10px;
+    box-shadow: 1px 1px 5px black;
+    border-radius: 15px;
+    background-color: var(--cinza-metal);
+}
+
+.planta {
+    font-size: 1.3rem;
+    padding: 2px 10px;
+    box-shadow: 1px 1px 5px black;
+    border-radius: 15px;
+    background-color: var(--verde-planta);
+}
+
+.psiquico {
+    font-size: 1.3rem;
+    padding: 2px 10px;
+    box-shadow: 1px 1px 5px black;
+    border-radius: 15px;
+    background-color: var(--rosa-psiquico);
+}
+
+.fada {
+    font-size: 1.3rem;
+    padding: 2px 10px;
+    box-shadow: 1px 1px 5px black;
+    border-radius: 15px;
+    background-color: var(--rosa-fada);
+}
+
 .pokemons {
     width: 90vw;
     padding: 10px;
@@ -151,13 +252,14 @@ a:hover {
 }
 
 .pokemons-card h1 {
-    font-size: 2.5rem;
+    font-size: 2em;
     color: white;
-    text-shadow: var(--sombra-padrao);
+    text-shadow: var(--sombra-titulo);
     font-family: var(--fonte-titulo);
 }
 
 .pokemons-card h2 {
+    font-size: 1em;
     display: inline-block;
     color: white;
     text-shadow: 1px 1px black;

@@ -45,6 +45,7 @@ body {
     align-content: center;
     align-items: center;
     background-image: linear-gradient(to bottom, var(--roxo-claro), black);
+    background-repeat: no-repeat;
 }
 
 .cabecalho {
@@ -252,7 +253,7 @@ a:hover {
 .pokemons-card {
     font-family: var(--fonte-texto);
     text-align: center;
-    padding: 15px 0px;
+    padding: 15px 15px;
     border-bottom: 2px solid var(--roxo-claro);
     cursor: pointer;
 }
@@ -285,6 +286,23 @@ a:hover {
     box-shadow: 0 0 5px black;
     border-radius: 20px;
     text-align: center;
+}
+
+.rodape a {
+    font-size: 1.3em;
+}
+
+.rodape a:hover {
+    background-color: var(--roxo-claro);
+    border-radius: 10px;
+}
+
+.rodape a:active {
+    color: #00b1e8;
+}
+
+.rodape a:visited {
+    color: black;
 }
 
 @media only screen and (min-width: 600px) {

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre o Projeto</title>
+    <link rel="shortcut icon" href="imagens/poke.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <h1 class="titulo">Ghost Pokédex</h1>
+        <span id="burguer" class="material-icons" onclick="clickMenu()">menu</span>
+        <div id="itens" class="navegacao">
+            <a class="navegacao-links" href="#">Home</a>
+            <a class="navegacao-links" href="#">Fontes</a>
+            <a class="navegacao-links" href="sobre.html">Sobre</a>
+            <a class="navegacao-links" href="#">Outros</a>
+        </div>
+    </header>
+    <main>
+
+    </main>
+    <footer class="rodape">
+        <h1>Referências</h1>
+        <p>Todas as informações e imagens foram retiradas do <strong><a href="https://www.pokemon.com/br/">site oficial do pokémon</a></strong></p>
+    </footer>
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block';
+            }
+        }    
+    </script>
+</body>
+</html>
